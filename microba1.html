@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioBloom | Potensi Pangan Mikroba</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* === STYLE IDENTIK DENGAN HALAMAN UTAMA === */
+        :root {
+            --soft-pink: #FFD1DC;
+            --hot-pink: #FF85A1;
+            --sunny-yellow: #FFF4A3;
+            --deep-yellow: #FFD700;
+            --text-color: #4A4A4A;
+            --white: #ffffff;
+            --mint-green: #98FB98; 
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            background-color: #FFF9FB;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--soft-pink), var(--mint-green)); 
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 5px dashed var(--hot-pink);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--hot-pink);
+            margin: 0;
+            text-shadow: 2px 2px var(--white);
+        }
+
+        header p.sub-caption {
+            max-width: 700px;
+            margin: 20px auto 0 auto;
+            font-weight: 600;
+            color: #6d6d6d;
+            line-height: 1.6;
+            font-size: 1.1rem;
+            text-align: center;
+            font-style: italic;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: var(--white);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--hot-pink);
+            font-weight: bold;
+            font-size: 0.9rem;
+            padding: 5px 15px;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: var(--sunny-yellow);
+        }
+
+        .nav-home {
+            background-color: var(--soft-pink);
+            color: white !important;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: var(--white);
+            margin-bottom: 50px;
+            padding: 40px;
+            border-radius: 30px;
+            border-left: 10px solid var(--mint-green); 
+            box-shadow: 10px 10px 0px var(--soft-pink);
+        }
+
+        h2 {
+            color: var(--hot-pink);
+            font-size: 2rem;
+            border-bottom: 2px solid var(--mint-green);
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.05rem;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .img-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .img-placeholder {
+            width: 100%;
+            height: 350px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            border: 4px solid var(--sunny-yellow);
+        }
+
+        .img-source {
+            display: block;
+            margin-top: 8px;
+            font-size: 0.8rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--sunny-yellow);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul.rujukan-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul.rujukan-list li {
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 3px solid var(--sunny-yellow);
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: var(--soft-pink);
+            color: white;
+            font-weight: bold;
+        }
+
+        .highlight {
+            color: var(--hot-pink);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🧫 Potensi Pangan dari Mikroba 🧫</h1>
+    <p class="sub-caption">
+        Pahlawan tak kasat mata yang mengubah cara kita memandang makanan masa depan, <br>
+        dari fermentasi tradisional hingga sumber protein berkelanjutan.
+    </p>
+</header>
+
+<nav>
+    <a href="biodiversitas.html" style="background-color: #FF85A1; color: white;"> ⬅ Kembali ke Beranda</a>
+    <a href="#pendahuluan">Pendahuluan</a>
+    <a href="#fermentasi">Fermentasi</a>
+    <a href="#pst">Protein Sel Tunggal</a>
+    <a href="#masa-depan">Masa Depan</a>
+    <a href="#referensi">Sumber Rujukan</a>
+
+</nav>
+
+<div class="container">
+
+    <section id="pendahuluan">
+        <h2>1. Koki Tak Kasat Mata</h2>
+        <p>Ketika mendengar kata "mikroba" atau "bakteri", seringkali yang terlintas adalah penyakit. Padahal, dalam dunia pangan, mikroba adalah koki tak kasat mata yang telah bekerja sama dengan manusia selama ribuan tahun. Mikroorganisme seperti jamur (kapang), khamir (yeast), dan bakteri memiliki kemampuan luar biasa untuk mengubah bahan mentah menjadi makanan yang lebih bergizi, awet, dan lezat.</p>
+        <p>Di era modern ini, peran mereka semakin krusial. Bukan hanya sebagai pengawet alami, mikroba kini dilirik sebagai solusi untuk mengatasi krisis pangan global akibat perubahan iklim dan keterbatasan lahan pertanian.</p>
+    </section>
+
+    <section id="fermentasi">
+        <h2>2. Keajaiban Fermentasi Tradisional</h2>
+        <div class="badge">Rhizopus oligosporus - Lactobacillus - Neurospora</div>
+        
+        <div class="img-container">
+            <div class="img-placeholder" style="background-image: url('https://assets.pikiran-rakyat.com/crop/0x0:0x0/720x0/webp/photo/2023/08/21/3779609657.jpg');"></div>
+            <span class="img-source">Sumber Gambar: Pikiran Rakyat</span>
+        </div>
+
+        <p>Indonesia adalah surga fermentasi. Salah satu contoh terbaik pemanfaatan mikroba adalah <strong>Tempe</strong>. Jamur <em>Rhizopus oligosporus</em> mengikat kedelai menjadi padatan kompak dan menguraikan protein kompleks menjadi asam amino yang mudah dicerna tubuh. Tanpa mikroba ini, kedelai hanyalah biji-bijian biasa.</p>
+        <p>Selain tempe, kita mengenal oncom (dari jamur <em>Neurospora sitophila</em>) dan yogurt (bakteri <em>Lactobacillus bulgaricus</em>). Proses fermentasi ini tidak hanya meningkatkan rasa, tetapi juga menambah nilai gizi, seperti peningkatan vitamin B12 pada tempe yang jarang ditemukan pada makanan nabati lainnya.</p>
+    </section>
+
+    <section id="pst">
+        <h2>3. Protein Sel Tunggal (PST)</h2>
+        <p>Bayangkan memanen protein tanpa menyembelih hewan dan tanpa membutuhkan hektaran lahan peternakan. Inilah konsep <strong>Protein Sel Tunggal (Single Cell Protein)</strong>. PST adalah biomassa protein yang berasal dari sel mikroba, alga mikroskopis, atau jamur yang dikeringkan.</p>
+        
+        <div class="img-container">
+            <div class="img-placeholder" style="background-image: url('https://images.unsplash.com/photo-1599305090598-fe179d501227?auto=format&fit=crop&q=80&w=1000');"></div>
+            <span class="img-source">Sumber Gambar: Unsplash.com (Ilustrasi Spirulina/Alga Mikroskopis)</span>
+        </div>
+
+        <p>Contoh populer dari PST adalah <strong>Spirulina</strong> dan <strong>Chlorella</strong>. Mikroalga ini memiliki kandungan protein yang sangat tinggi, mencapai 60-70% dari berat keringnya, jauh melebihi daging sapi. Mereka dapat tumbuh di bak-bak air dengan cepat, memanen energi matahari, dan menghasilkan nutrisi lengkap bagi manusia.</p>
+    </section>
+
+    <section id="masa-depan">
+        <h2>4. Masa Depan Pangan Berkelanjutan</h2>
+        <p>Dunia sedang bergerak menuju <em>Cellular Agriculture</em> atau pertanian seluler. Ilmuwan kini menggunakan mikroba untuk memproduksi susu tanpa sapi dan putih telur tanpa ayam melalui proses fermentasi presisi. Mikroba direkayasa untuk menghasilkan protein spesifik yang identik dengan produk hewani.</p>
+        <p>Potensi pangan dari mikroba menawarkan jalan keluar bagi tantangan lingkungan. Produksi pangan berbasis mikroba membutuhkan air yang jauh lebih sedikit, emisi gas rumah kaca yang minimal, dan tidak menyebabkan deforestasi. Ini adalah bukti bahwa makhluk terkecil di bumi bisa menjadi penyelamat terbesar bagi kelangsungan hidup manusia.</p>
+    </section>
+
+    <section id="referensi">
+        <h2>5. Daftar Rujukan</h2>
+        <p>Berikut adalah sumber literatur yang digunakan dalam penyusunan artikel ini:</p>
+        <ul class="rujukan-list">
+            <li>Nout, M. J. R., & Kiers, J. L. (2005). <em>"Tempe fermentation, innovation and functionality: update into the third millenium"</em>. Journal of Applied Microbiology.</li>
+            <li>Ritala, A., et al. (2017). <em>"Single Cell Protein - State-of-the-Art, Industrial Landscape and Patents 2001–2016"</em>. Frontiers in Microbiology.</li>
+            <li>Badan Pengawas Obat dan Makanan (BPOM). (2019). <em>Pedoman Pangan Olahan Fermentasi</em>. Jakarta: BPOM RI.</li>
+            <li>Post, M. J. (2012). <em>"Cultured meat from stem cells: Challenges and prospects"</em>. Meat Science.</li>
+            <li>Wijayanti, I., et al. (2020). <em>Mikrobiologi Pangan: Teori dan Praktik</em>. Yogyakarta: Penerbit Andi.</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Dibuat dengan ❤️ oleh Alifi Cyndi Al Majid</p>
+</footer>
+
+</body>
+</html>
